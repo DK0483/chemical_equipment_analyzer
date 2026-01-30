@@ -41,7 +41,7 @@ to analyze equipment health, detect abnormal behavior, and recommend corrective 
 ```bash
 cd backend
 python -m venv venv
-source venv/bin/activate   # Windows: venv\Scripts\activate
+source venv/bin/activate
 pip install -r requirements.txt
 python manage.py migrate
 python manage.py runserver
@@ -81,19 +81,63 @@ analytics, charts, and insights as the web frontend.
    pip install pyqt5 matplotlib requests
 4. Start backend server (from project root):
    python manage.py runserver
-5. python manage.py runserver
+5. Run the desktop application:
    python main.py
 
 ## Demo & Live Links
 
-### 🎥 Project Demo Video
+### Project Demo Video
 
 Watch the complete walkthrough of the web and desktop application:  
 👉 **Video Demo:** https://youtu.be/YOUR_VIDEO_LINK_HERE
 
-### 🌐 Live Web Application
+### Live Web Application
 
 Access the deployed web dashboard:  
 👉 **Live URL (Netlify):** https://your-project-name.netlify.app
 
 > Note: Backend API must be running locally or hosted for full functionality.
+
+## Demo Risky Data Simulation
+
+To demonstrate realistic industrial behavior, this project includes a **deliberately crafted demo CSV dataset**
+containing **risky operating conditions**.
+
+### Demo Risky CSV File
+
+👉 **Download Demo Risky Dataset:**  
+[demo_risky_equipment_data.csv](demo_risky_equipment_data.csv)
+
+_(Used for testing alerts, health scoring, and recommendations)_
+
+### What This Demonstrates
+
+The demo dataset intentionally contains:
+
+- Pressure values exceeding safe operational thresholds
+- Temperature values above recommended operating limits
+- Equipment operating near or beyond critical conditions
+
+These values are **intentionally introduced** to validate:
+
+- System health score degradation
+- Warning & critical alert generation
+- Recommended corrective actions
+- Outlier detection and root-cause hints
+
+### Why This Is Important
+
+✔ Proves analytics logic works under abnormal conditions  
+✔ Demonstrates real-world engineering scenarios  
+✔ Shows decision-support capability, not just visualization  
+✔ Makes the dashboard meaningful and realistic
+
+### Example Risk Scenarios Included
+
+- Simulated valve blockage causing high pressure
+- Cooling system inefficiency leading to overheating
+- Equipment-specific anomalies for outlier detection
+
+> **Disclaimer:**  
+> The demo risky dataset is created **strictly for demonstration and evaluation purposes**  
+> and does **not represent actual plant data or operating conditions**.
