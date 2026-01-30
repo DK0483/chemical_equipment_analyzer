@@ -89,12 +89,12 @@ analytics, charts, and insights as the web frontend.
 ### Project Demo Video
 
 Watch the complete walkthrough of the web and desktop application:  
-👉 **Video Demo:** https://youtu.be/YOUR_VIDEO_LINK_HERE
+ **Video Demo:** https://youtu.be/YOUR_VIDEO_LINK_HERE
 
 ### Live Web Application
 
 Access the deployed web dashboard:  
-👉 **Live URL (Netlify):** https://your-project-name.netlify.app
+ **Live URL (Netlify):** https://your-project-name.netlify.app
 
 > Note: Backend API must be running locally or hosted for full functionality.
 
@@ -105,7 +105,7 @@ containing **risky operating conditions**.
 
 ### Demo Risky CSV File
 
-👉 **Download Demo Risky Dataset:**  
+**Download Demo Risky Dataset:**  
 [demo_risky_equipment_data.csv](demo_risky_equipment_data.csv)
 
 _(Used for testing alerts, health scoring, and recommendations)_
@@ -141,3 +141,18 @@ These values are **intentionally introduced** to validate:
 > **Disclaimer:**  
 > The demo risky dataset is created **strictly for demonstration and evaluation purposes**  
 > and does **not represent actual plant data or operating conditions**.
+
+### Web Dashboard Output (After Uploading Demo Risky Data)
+
+The screenshot below shows the **web application state after uploading the demo risky CSV file**, highlighting:
+
+- Degraded system health score
+- Generated alerts & warnings
+- Recommended corrective actions
+- Visual impact on charts due to abnormal data
+
+![Web Output After Demo Risky Data](photos/demo-1.jpeg)
+![Web Output After Demo Risky Data](photos/demo-2.jpeg)
+![Web Output After Demo Risky Data](photos/demo-3.jpeg)
+![Web Output After Demo Risky Data](photos/demo-4.jpeg)
+![Web Output After Demo Risky Data](photos/demo-5.jpeg)
