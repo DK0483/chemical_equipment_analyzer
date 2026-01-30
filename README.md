@@ -32,7 +32,7 @@ to analyze equipment health, detect abnormal behavior, and recommend corrective 
 
 ### Desktop Application
 
-![Desktop App](screenshots/desktop_app.png)
+![Desktop App](photos/desktop_app-1.jpeg)
 
 ## Setup Instructions
 
