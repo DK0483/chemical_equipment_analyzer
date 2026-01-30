@@ -26,7 +26,9 @@ to analyze equipment health, detect abnormal behavior, and recommend corrective 
 
 ### Web Application
 
-![Web Dashboard](screenshots/web_dashboard.png)
+![Web Dashboard](photos/web-1.jpeg)
+![Web Dashboard](photos/web-2.jpeg)
+![Web Dashboard](photos/web-3.jpeg)
 
 ### Desktop Application
 
