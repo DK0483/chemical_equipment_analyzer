@@ -22,8 +22,30 @@ to analyze equipment health, detect abnormal behavior, and recommend corrective 
 - Backend : Django REST Framework (API & analytics)
 - Data Processing : Pandas for analytics (health scoring & insights)
 
-## How to Run
+## Application Screenshots
 
-1. Start backend: `python manage.py runserver`
-2. Start frontend: `npm start`
-3. Upload CSV to visualize insights
+### Web Application
+
+![Web Dashboard](screenshots/web_dashboard.png)
+
+### Desktop Application
+
+![Desktop App](screenshots/desktop_app.png)
+
+## Setup Instructions
+
+## Backend Setup (Django)
+
+cd backend
+python -m venv venv
+source venv/bin/activate # Windows: venv\Scripts\activate
+pip install -r requirements.txt
+python manage.py migrate
+python manage.py runserver
+
+## Web Frontend Setup (React)
+
+### Install Dependencies
+
+cd frontend
+npm install
