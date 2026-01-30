@@ -81,3 +81,17 @@ analytics, charts, and insights as the web frontend.
    python manage.py runserver
 5. python manage.py runserver
    python main.py
+
+## Demo & Live Links
+
+### 🎥 Project Demo Video
+
+Watch the complete walkthrough of the web and desktop application:  
+👉 **Video Demo:** https://youtu.be/YOUR_VIDEO_LINK_HERE
+
+### 🌐 Live Web Application
+
+Access the deployed web dashboard:  
+👉 **Live URL (Netlify):** https://your-project-name.netlify.app
+
+> Note: Backend API must be running locally or hosted for full functionality.
