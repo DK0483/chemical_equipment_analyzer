@@ -39,7 +39,7 @@ to analyze equipment health, detect abnormal behavior, and recommend corrective 
 ````bash
 cd backend
 python -m venv venv
-source venv/bin/activate
+source venv/bin/activate   # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 python manage.py migrate
 python manage.py runserver
@@ -52,3 +52,31 @@ python manage.py runserver
 cd frontend
 npm install
 ````
+
+## Desktop Application Setup (PyQt5)
+
+The desktop application provides an offline industrial dashboard with the same
+analytics, charts, and insights as the web frontend.
+
+### Prerequisites
+
+- Python 3.9+
+- Virtual environment (recommended)
+- Backend API running locally
+
+### Setup Steps
+
+1. Navigate to the desktop app directory:
+   ```bash
+   cd desktop-app
+   ```
+2. Create and activate virtual environment:
+   python -m venv venv
+   source venv/bin/activate # macOS / Linux
+   venv\Scripts\activate # Windows
+3. Install required dependencies:
+   pip install pyqt5 matplotlib requests
+4. Start backend server (from project root):
+   python manage.py runserver
+5. python manage.py runserver
+   python main.py
