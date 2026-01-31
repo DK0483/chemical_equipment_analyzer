@@ -86,10 +86,11 @@ analytics, charts, and insights as the web frontend.
 
 ## Demo & Live Links
 
-### Project Demo Video
+##  Project Demo Video
 
-Watch the complete walkthrough of the web and desktop application:  
- **Video Demo:** https://youtu.be/YOUR_VIDEO_LINK_HERE
+A full walkthrough of the web and desktop applications using **demo risky data**:
+
+👉 https://drive.google.com/file/d/1B1GTclSOiHb9SCn5IbD9S7d5Rg7I0BvW/view?usp=sharing
 
 ### Live Web Application
 
