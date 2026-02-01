@@ -86,7 +86,7 @@ analytics, charts, and insights as the web frontend.
 
 ## Demo & Live Links
 
-##  Project Demo Video
+## Project Demo Video
 
 A full walkthrough of the web and desktop applications using **demo risky data**:
 
@@ -95,7 +95,7 @@ A full walkthrough of the web and desktop applications using **demo risky data**
 ### Live Web Application
 
 Access the deployed web dashboard:  
- **Live URL (Netlify):** https://your-project-name.netlify.app
+ **Live URL (Netlify):** https://csv-equipment-analytics-platform.netlify.app/
 
 > Note: Backend API must be running locally or hosted for full functionality.
 
