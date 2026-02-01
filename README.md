@@ -97,8 +97,6 @@ A full walkthrough of the web and desktop applications using **demo risky data**
 Access the deployed web dashboard:  
  **Live URL (Netlify):** https://csv-equipment-analytics-platform.netlify.app/
 
-> Note: Backend API must be running locally or hosted for full functionality.
-
 ## Demo Risky Data Simulation
 
 To demonstrate realistic industrial behavior, this project includes a **deliberately crafted demo CSV dataset**

@@ -17,7 +17,7 @@ class DesktopApp(QWidget):
         self.setWindowTitle("Chemical Equipment Visualizer (Desktop)")
         self.setGeometry(200, 100, 950, 740)
 
-        # ---------------- THEME ----------------
+        # THEME
         self.setStyleSheet("""
         QWidget {
             background-color: #0b1220;
@@ -55,7 +55,7 @@ class DesktopApp(QWidget):
         }
         """)
 
-        # ---------------- LAYOUT ----------------
+        # LAYOUT
         main_layout = QVBoxLayout()
         main_layout.setSpacing(16)
         main_layout.setContentsMargins(22, 22, 22, 22)
@@ -92,7 +92,7 @@ class DesktopApp(QWidget):
 
         self.setLayout(main_layout)
 
-    # ---------------- UPLOAD ----------------
+    # UPLOAD
     def upload_csv(self):
         file_path, _ = QFileDialog.getOpenFileName(
             self, "Select CSV File", "", "CSV Files (*.csv)"
@@ -132,7 +132,7 @@ class DesktopApp(QWidget):
 
         self.upload_btn.setEnabled(True)
 
-    # ---------------- TEXT OUTPUT ----------------
+    # TEXT OUTPUT
     def render_text(self, summary, insights):
         self.output_box.clear()
 
@@ -163,7 +163,7 @@ class DesktopApp(QWidget):
             f"<br><span style='color:#38bdf8; font-size:16px;'><b>{title}</b></span>"
         )
 
-    # ---------------- BAR + PIE CHART ----------------
+    # BAR + PIE CHART
     def render_charts(self, summary):
         self.figure.clear()
 
@@ -192,7 +192,7 @@ class DesktopApp(QWidget):
         self.figure.tight_layout()
         self.canvas.draw()
 
-    # ---------------- SAVE CHART ----------------
+    # SAVE CHART
     def save_chart(self):
         path, _ = QFileDialog.getSaveFileName(
             self,
@@ -205,7 +205,7 @@ class DesktopApp(QWidget):
             self.status_label.setText("Chart saved successfully")
 
 
-# ---------------- RUN APP ----------------
+# RUN APP
 app = QApplication(sys.argv)
 window = DesktopApp()
 window.show()
