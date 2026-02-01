@@ -8,10 +8,7 @@ from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
 from matplotlib.figure import Figure
 
 
-API_URL = "http://127.0.0.1:8000/api/upload/"
-USERNAME = "admin"
-PASSWORD = "dhyey2323"
-
+API_URL = "https://dhyey2323.pythonanywhere.com/api/upload/"
 
 class DesktopApp(QWidget):
     def __init__(self):
@@ -111,8 +108,7 @@ class DesktopApp(QWidget):
                 response = requests.post(
                     API_URL,
                     files={"file": f},
-                    auth=(USERNAME, PASSWORD),
-                    timeout=10
+                    timeout=20
                 )
 
             if response.status_code != 200:
